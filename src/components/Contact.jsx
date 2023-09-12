@@ -12,10 +12,10 @@ const Contact = () => {
 				{/* text and icons */}
 				<div className='md:w-1/2'>
 					<h1 className='text-primary font-semibold text-3xl mt-16'>
-						Connect with me:
+						Let's make magic together:
 					</h1>
 					<p className='my-3 text-white md:w-3/4 leading-[2]'>
-						Contact me, let's make magic together
+          Connect with me to see some more of my work. ✨ 
 					</p>
 					{/* social icons */}
 					<div className='flex '>
