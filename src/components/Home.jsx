@@ -1,9 +1,4 @@
 import React from 'react';
-import Img from '../assets/Willie.png';
-import circle from '../assets/circle.png';
-// import img2 from '../assets/img2.png';
-// import jawline from '../assets/jawline.jpg';
-// import meSerious from '../assets/meSeriousGlare.jpg';
 import spectre from '../assets/spectreEdited.png';
 import Typewriter from 'typewriter-effect';
 import { Link } from 'react-scroll';

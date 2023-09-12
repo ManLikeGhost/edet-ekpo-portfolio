@@ -1,6 +1,21 @@
 import React from 'react';
 
-import services from '../../public/services.js';
+import ruler from '../assets/icons-file/ruler-pen.png';
+import code from '../assets/icons-file/code.png';
+import android from '../assets/icons-file/android.png';
+import gitrepo from '../assets/icons-file/git-repo.png';
+import javascript from '../assets/icons-file/javascript.png';
+import webscraping from '../assets/icons-file/web-scraping.png';
+
+const services = [
+    {id: 1, name:'GRAPHIC DESIGN', description:'I craft stunning graphic designs using Canva, Figma, and Sketch.', image:ruler},
+    {id:2, name:'WEB DEVELOPMENT', description:'I create beautiful iterfaces with simple HTML, CSS, & JavaScript and also frameworks like ReactJS and VueJs', image:code},
+    {id:3, name:'MOBILE DEVELOPMENT', description:'I am an expert mobile developer. I have experience using React Native.', image:android},
+    {id:4, name:'VERSION CONTROL', description:'I can use version control systems well, and Git as my go-to tool.', image:gitrepo},
+    {id:5, name:'NPM AND NODEJS', description:'I have core understanding of NPM. I can also develop general purpose applications with NodeJS, Express and NestJs', image:javascript},
+    {id:6, name:'CODING', description:'I am a tech enthusiast and adept at swiftly acquiring the necessary skills to complete tasks assigned.', image:webscraping},
+]
+
 
 const Services = () => {
     return (

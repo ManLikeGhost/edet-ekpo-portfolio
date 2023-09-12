@@ -1,11 +1,13 @@
 import React from 'react';
-// https://www.superpow.ro/
-// https://www.getwelp.com/
-// https://afrimart.com/en
-
-// http://aiikii.com/
-// http://marketplace.aiikii.com/
-// https://keeway-waitlist.vercel.app/
+import superpow from '../assets/projects-file/superpow.png';
+import getwelp from '../assets/projects-file/getwelp.png';
+import afrimart from '../assets/projects-file/Afrimart.png';
+import aiikiiMobile from '../assets/projects-file/aiikii-mobile.png';
+import aiikiiMarketplace from '../assets/projects-file/aiikii-marketplace.png';
+import keeway from '../assets/projects-file/keeway.png';
+import filtergithub from '../assets/projects-file/filtergithub.png';
+import starbucks from '../assets/projects-file/smart-contract-starbucks.png';
+import DCLDI from '../assets/projects-file/DCLDIcontract.png';
 
 const Projects = () => {
 	const projects = [
@@ -13,20 +15,20 @@ const Projects = () => {
 			title: 'Superpow',
 			description:
 				'Accessible Online Therapy: Find Your Ideal Therapist Easily and Affordably.',
-			photo: '/src/assets/projects/superpow.png',
+			photo: superpow,
 			link: 'https://www.superpow.ro/',
 		},
 		{
 			title: 'Getwelp',
 			description: 'An all in one place for your dog training business.',
-			photo: '/src/assets/projects/getwelp.png',
+			photo: getwelp,
 			link: 'https://www.getwelp.com/',
 		},
 		{
 			title: 'Afrimart',
 			description:
 				'Africas First B2B Trade Platform: Boosting SME Growth with Scalable Solutions.',
-			photo: '/src/assets/projects/Afrimart.png',
+			photo: afrimart,
 			link: 'https://afrimart.com/en',
 		},
 	];
@@ -35,21 +37,21 @@ const Projects = () => {
 			title: 'Aiikii-Mobile',
 			description:
 				'Instant Connection to Top-Rated Services. From plumbers to babysitters, get things done with ease.',
-			photo: '/src/assets/projects/aiikii-mobile.png',
+			photo: aiikiiMobile,
 			link: 'http://aiikii.com/',
 		},
 		{
 			title: 'Aiikii-Marketplace',
 			description:
 				'E-commerce app for Top-Rated Service providers to buy materials.',
-			photo: '/src/assets/projects/aiikii-marketplace.png',
-			link: 'http://marketplace.aiikii.com/',
+			photo: aiikiiMarketplace,
+			link: '',
 		},
 		{
 			title: 'Co-founder:Keeway',
 			description:
 				'Borderless Transactions, Universal payment using any crypto-currency.',
-			photo: '/src/assets/projects/keeway.png',
+			photo: keeway,
 			link: 'https://keeway-waitlist.vercel.app/',
 		},
 	];
@@ -57,20 +59,20 @@ const Projects = () => {
 		{
 			title: 'Filter-Github-User',
 			description: 'A simple App to fetch and find github users.',
-			photo: '/src/assets/projects/filtergithub.png',
+			photo: filtergithub,
 			link: 'https://filtergithubuser32456789.netlify.app/',
 		},
 		{
 			title: 'Smart-contract-to-buy-beverages',
 			description: 'A parody online starbucks to buy beverages using crypto',
-			photo: '/src/assets/projects/smart-contract-starbucks.png',
+			photo: starbucks,
 			link: 'https://github.com/ManLikeGhost/starbucks-shop',
 		},
 		{
 			title: 'DCLDIcontract-with-doliacats',
 			description:
 				'Dolia Cats Digital Identity allows you to store your digital assets in a safe way.',
-			photo: '/src/assets/projects/DCLDIcontract.png',
+			photo: DCLDI,
 			link: 'https://github.com/Crypto-Nautilus/DCLDIcontract',
 		},
 	];
@@ -110,9 +112,6 @@ const Projects = () => {
 										Link
 									</button>
 								</a>
-								{/* <button className='btn outline py-1.5 px-9 rounded border-none ml-5 text-white '>
-									Projects
-								</button> */}
 							</div>
 						</div>
 					);
@@ -144,9 +143,6 @@ const Projects = () => {
 										Link
 									</button>
 								</a>
-								{/* <button className='btn outline py-1.5 px-9 rounded border-none ml-5 text-white '>
-									Projects
-								</button> */}
 							</div>
 						</div>
 					);
@@ -180,9 +176,6 @@ const Projects = () => {
 										Link
 									</button>
 								</a>
-								{/* <button className='btn outline py-1.5 px-9 rounded border-none ml-5 text-white '>
-									Projects
-								</button> */}
 							</div>
 						</div>
 					);

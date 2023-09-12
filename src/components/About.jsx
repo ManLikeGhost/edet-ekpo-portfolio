@@ -1,14 +1,17 @@
 import React from 'react';
 import Services from './Services';
-
+import code from '../assets/icons-file/code.png';
+import android from '../assets/icons-file/android.png';
+import blockchain from '../assets/icons-file/blockchain.png';
+import script from '../assets/icons-file/script.png';
 const About = () => {
 	const skills = [
-		{ name: 'WEB DEVELOPMENT', image: '/src/assets/icons/code.png' },
-    { name: 'MOBILE DEVELOPMENT', image: '/src/assets/icons/android.png' },
-    { name: 'BLOCKCHAIN DEVELOPER (Jnr)', image: '/src/assets/icons/blockchain.png' },
+		{ name: 'WEB DEVELOPMENT', image: code },
+    { name: 'MOBILE DEVELOPMENT', image: android },
+    { name: 'BLOCKCHAIN DEVELOPER (Jnr)', image: blockchain },
 		{
 			name: 'JAVASCRIPT DEVELOPER',
-			image: '/src/assets/icons/script.png',
+			image: script,
 		},
 	];
 	return (

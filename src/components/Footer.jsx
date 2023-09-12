@@ -1,8 +1,4 @@
 import React from "react";
-import facebook from "../assets/socials/facebook.png";
-import instagram from "../assets/socials/instagram.png";
-import dribbble from "../assets/socials/dribbble.png";
-import email from "../assets/socials/sms.png";
 
 const Footer = () => {
   return (
@@ -14,40 +10,6 @@ const Footer = () => {
         <p className="hidden sm:block">Mobile Developer</p>
         {/* <p className="hidden sm:block">Designed by @ernestechie</p> */}
       </div>
-      {/* social media */}
-      {/* <div className="flex mb-5 justify-center md:justify-start ">
-        <a
-          href="https://www.linkedin.com/in/joshua-harris-321a24190/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={facebook} alt="" />
-        </a>
-        <a
-          className="ml-4"
-          href="https://github.com/joshua-harris"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={instagram} alt="" />
-        </a>
-        <a
-          className="ml-4"
-          href="mailto:anpch@example.com"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={dribbble} alt="" />
-        </a>
-        <a
-          className="ml-4"
-          href="mailto:anpch@example.com"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={email} alt="" />
-        </a>
-      </div> */}
     </div>
   );
 };
