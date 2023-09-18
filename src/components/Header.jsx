@@ -5,7 +5,7 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/solid";
 import { Link, ScrollLink } from "react-scroll";
-
+import ResumePDF from '../assets/mobile_&_web_developer.pdf'
 
 
 const Header = () => {
@@ -49,7 +49,18 @@ const Header = () => {
                 {link.name}
               </Link>
             </li>
-          ))}
+          ) )}
+          <li className="md:ml-8 md:my-0 my-7 font-semibold">
+            <a
+              href={ResumePDF}
+              download="Edet-Resume-PDF"
+              target="_blank"
+              rel="noreferrer"
+              className="text-primary"
+            >
+                Download my resume
+              </a>
+            </li>
         </ul>
         {/* button */}
       </div>

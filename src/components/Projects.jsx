@@ -27,28 +27,28 @@ const Projects = () => {
 		{
 			title: 'Afrimart',
 			description:
-				'Africas First B2B Trade Platform: Boosting SME Growth with Scalable Solutions.',
+				"Africa's First B2B Trade Platform: Boosting SME Growth with Scalable Solutions.",
 			photo: afrimart,
 			link: 'https://afrimart.com/en',
 		},
 	];
 	const moreRecent = [
 		{
-			title: 'Aiikii-Mobile',
+			title: 'Aiikii Mobile app',
 			description:
 				'Instant Connection to Top-Rated Services. From plumbers to babysitters, get things done with ease.',
 			photo: aiikiiMobile,
 			link: 'http://aiikii.com/',
 		},
 		{
-			title: 'Aiikii-Marketplace',
+			title: 'Aiikii Marketplace',
 			description:
 				'E-commerce app for Top-Rated Service providers to buy materials.',
 			photo: aiikiiMarketplace,
-			link: '',
+			// link: '',
 		},
 		{
-			title: 'Co-founder:Keeway',
+			title: 'Keeway: Co-founder',
 			description:
 				'Borderless Transactions, Universal payment using any crypto-currency.',
 			photo: keeway,
@@ -57,23 +57,23 @@ const Projects = () => {
 	];
 	const funStuff = [
 		{
-			title: 'Filter-Github-User',
+			title: 'Filter Github User',
 			description: 'A simple App to fetch and find github users.',
 			photo: filtergithub,
 			link: 'https://filtergithubuser32456789.netlify.app/',
 		},
 		{
-			title: 'Smart-contract-to-buy-beverages',
+			title: 'Smart contract to buy beverages',
 			description: 'A parody online starbucks to buy beverages using crypto',
 			photo: starbucks,
 			link: 'https://github.com/ManLikeGhost/starbucks-shop',
 		},
 		{
-			title: 'DCLDIcontract-with-doliacats',
+			title: 'DCLDI contract with doliacats',
 			description:
 				'Dolia Cats Digital Identity allows you to store your digital assets in a safe way.',
 			photo: DCLDI,
-			link: 'https://github.com/Crypto-Nautilus/DCLDIcontract',
+			// link: '',
 		},
 	];
 
@@ -107,11 +107,13 @@ const Projects = () => {
 							</h3>
 							<p className=' text-white mt-1'>{project.description}</p>
 							<div className='mt-5'>
-								<a href={project.link} target='_blank' rel='noreferrer'>
-									<button className='btn transition-all duration-500 bg-primary py-2 px-6 rounded text-white hover:bg-white hover:text-primary w-full'>
-										Link
-									</button>
-								</a>
+								{project.link && (
+									<a href={project.link} target='_blank' rel='noreferrer'>
+										<button className='btn transition-all duration-500 bg-primary py-2 px-6 rounded text-white hover:bg-white hover:text-primary w-full'>
+											Link
+										</button>
+									</a>
+								)}
 							</div>
 						</div>
 					);
@@ -138,11 +140,13 @@ const Projects = () => {
 							</h3>
 							<p className=' text-white mt-1'>{project.description}</p>
 							<div className='mt-5'>
-								<a href={project.link} target='_blank' rel='noreferrer'>
-									<button className='btn transition-all duration-500 bg-primary py-2 px-6 rounded text-white hover:bg-white hover:text-primary w-full'>
-										Link
-									</button>
-								</a>
+								{project.link && (
+									<a href={project.link} target='_blank' rel='noreferrer'>
+										<button className='btn transition-all duration-500 bg-primary py-2 px-6 rounded text-white hover:bg-white hover:text-primary w-full'>
+											Link
+										</button>
+									</a>
+								)}
 							</div>
 						</div>
 					);
@@ -171,11 +175,13 @@ const Projects = () => {
 							</h3>
 							<p className=' text-white mt-1'>{project.description}</p>
 							<div className='mt-5'>
-								<a href={project.link} target='_blank' rel='noreferrer'>
-									<button className='btn transition-all duration-500 bg-primary py-2 px-6 rounded text-white hover:bg-white hover:text-primary w-full'>
-										Link
-									</button>
-								</a>
+								{project.link && (
+									<a href={project.link} target='_blank' rel='noreferrer'>
+										<button className='btn transition-all duration-500 bg-primary py-2 px-6 rounded text-white hover:bg-white hover:text-primary w-full'>
+											Link
+										</button>
+									</a>
+								)}
 							</div>
 						</div>
 					);
