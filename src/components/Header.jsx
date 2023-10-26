@@ -5,7 +5,7 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/solid";
 import { Link, ScrollLink } from "react-scroll";
-import ResumePDF from '../assets/mobile_&_web_developer.pdf'
+import ResumePDF from '../assets/Software Engineer Resume.pdf'
 
 
 const Header = () => {
