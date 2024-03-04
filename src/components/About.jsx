@@ -25,7 +25,7 @@ const About = () => {
 				here are my key skills:
 			</p>
 			<div className='md:flex my-7 items-center'>
-				<div className='text-primary text-8xl font-bold'>3+</div>
+				<div className='text-primary text-8xl font-bold'>4+</div>
 				<p className='text-white text-2xl md:ml-5'>
 					Years of professional experience. Specialised in building apps, while ensuring a
 					seamless web experience for end users.
