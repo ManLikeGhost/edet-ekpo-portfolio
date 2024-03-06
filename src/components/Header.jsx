@@ -58,7 +58,7 @@ const Header = () => {
               rel="noreferrer"
               className="text-primary"
             >
-                Download my resume
+                Download my resume2
               </a>
             </li>
         </ul>
