@@ -18,7 +18,7 @@ const Header = () => {
   let [open, setOpen] = useState(false);
 
   return (
-    <div className="w-full max-w-7xl ">
+    <div className="w-full max-w-7xl my-6">
       <div className="md:flex items-center justify-between py-4 md:px-10 px-7">
         {/* logo section */}
         <div className="font-bold text-2xl cursor-pointer flex items-center gap-1">
@@ -58,7 +58,7 @@ const Header = () => {
               rel="noreferrer"
               className="text-primary"
             >
-                Download my resume2
+                Download my resume
               </a>
             </li>
         </ul>
